@@ -3,7 +3,7 @@ function Movie()
 { 
     return ( 
     <div className='movie'> 
-    <img src='https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg' alt='SQUID GAME' /> 
+    <img src='https://occ-0-2042-3662.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABS60wkIyJE-j7KLsjILo9JH9TWyJ4ZsVC5ZrJySxR_A4w3BQp4Ihccg4VTTzjctfOTTIzjXAty8qfY_gNTVM687gpFUVG9FEgSALaNrWldiGRHNuc2Ki_H0ukVvirydEoITJ.jpg?r=ea2' alt='SQUID GAME' /> 
     <h2>Squid Game</h2> 
     </div> 
     ) 
