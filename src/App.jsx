@@ -5,7 +5,7 @@ function App()
 { 
   return ( 
   <div className='App'> 
-  <h1>Movie Library</h1> 
+  <h1>Hello2 Movie Library</h1> 
   <MovieLine />   
   <MovieLine /> 
   <MovieLine /> 
