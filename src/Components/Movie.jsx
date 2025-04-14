@@ -6,7 +6,7 @@ function Movie(props) {
     const city = props.title;
 
     function fetchCityData(cityName) {
-        fetch(`http://api.weatherapi.com/v1/current.json?key=aff3940bbb744342a80133547251304&q=${cityName}&aqi=no`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=aff3940bbb744342a80133547251304&q=${cityName}&aqi=no`)
             .then((response) => response.json())
             //.then((data) => setInfo(data))
             .then((data) => {
