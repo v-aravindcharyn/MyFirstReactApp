@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Movie from './Movie'
-function MovieLine(object) {
-    
+
+function MovieLine(object) {    
     return (
-        <div className='MovieLine' style={{ display: 'flex', gap: '20px' }}>
+        <div className='card-grid' style={{ display: 'flex', gap: '20px' }}>
             {
-            object.cricketerNames.map((v, i) => (
-                <Movie title={v.titleName} age={v.titleAge} url={v.imageURL} />))
+            object.cityNames.map((v, i) => (
+                <Movie title={v.titleName} age={v.titleAge} url={v.imageURL} wikiURL={v.wikiURL} />))
             }
         </div>
     )
